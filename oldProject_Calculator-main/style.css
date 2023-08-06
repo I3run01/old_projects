@@ -1,0 +1,71 @@
+@charset "UTF-08" ;
+ 
+body {
+    background-color: rgba(0, 126, 105, 0.637);
+}
+
+#externa {
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    background-color: aliceblue;
+    border-radius: 15px;
+}
+
+h1 {
+    padding: 40px 10px 10px 10px;
+    margin: 0px;
+}
+
+#conta {
+    border-style: solid;
+    height: 50px;
+    width: 470px;
+    margin: 10px;
+    border-color: rgba(0, 0, 0, 0.315);
+    border-width: 0.7px;
+    font-size: 2em;
+
+}
+
+
+#button {
+    width: 470px;
+    margin: 10px;
+    border-width: 0.7px;
+    padding: 0px;
+}
+
+
+input {
+    height: 50px;
+    width: 110px;
+    background-color: rgba(128, 128, 128, 0.322);
+    margin: 2px;
+    border-color: rgba(0, 0, 0, 0);
+    color: black;
+    font-size: 1.5em;
+    transition: 0.3 all;
+    
+}
+
+input:hover {
+    background-color: bisque; 
+}
+
+input:active{
+    transform: scale(95%);
+    
+}
+
+
+#zero {
+    height: 50px;
+    width: 229px;
+    background-color: rgba(128, 128, 128, 0.322);
+    margin: 2px;
+    border-color: rgba(0, 0, 0, 0);
+    color: black;
+    font-size: 1.5em;
+
+}

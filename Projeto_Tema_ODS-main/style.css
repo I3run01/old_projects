@@ -1,0 +1,458 @@
+@charset "UTF-08";
+
+body {
+    margin: 0px;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.8em;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+@media(max-width: 800px){ 
+    #navpai {
+        height: 25px;
+        background-color: black;
+        padding: 25px;
+        text-align: right;
+        position: fixed;
+        right: 0px;
+        left: 0px;
+        z-index: +10;
+
+    }
+
+    #navmobile {
+        margin-top: 0%;
+        margin-bottom: 100px;
+    }
+
+    #navmobile > a {
+        padding: 15px;
+        color: white;
+        text-decoration: none;
+        margin: 0px;
+        font-size: 1.2em;
+        transition: all 0.5s;
+    }
+    #navmobile > a > img {
+        width: 30px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    #navmobile>a>img:hover {
+        transform: scale(90%);
+    }
+
+    #navfilha {
+        display: none;
+    }
+
+    #navfilhamobile {
+        display: none;
+    }
+
+    #navmobile:hover>#navfilhamobile{
+        display: block;
+    }
+
+    
+    #navfilhamobile {
+        background-color: rgb(0, 0, 0);
+        top: 70px;
+        right: 0px;
+        position: fixed;
+        box-shadow: 2px 2px 2px black;      
+        
+    }
+
+    #navfilhamobile>ul>li{
+        list-style: none;
+    }
+
+    #navfilhamobile>ul{
+        padding: 0%;
+    }
+
+    #navfilhamobile>ul>li>a {
+        color: white;
+        line-height: 4em;
+        text-decoration: none;
+        text-align: right;
+        margin: 0px;
+        font-size: 1.2em;
+        padding: 25px;
+        transition: all 0.5s;
+
+    }
+    
+    #navpai>img {
+        left: 20px;
+        top: 10px;
+        position: absolute;
+        height: 50%;
+    }
+    
+    #navfilhamobile>ul>li>a:hover {
+        background-color: rgba(128, 128, 128, 0.432);
+    }
+
+}
+
+@media(min-width: 800px){
+    #navmobile {
+        display: none;
+    }
+
+    #navfilhamobile {
+        display: none;
+    }
+    
+    #navpai {
+        height: 25px;
+        background-color: black;
+        padding: 25px;
+        text-align: right;
+        position: fixed;
+        right: 0px;
+        left: 0px;
+        z-index: +10;
+        
+
+    }
+    
+    #navfilha > a {
+        color: white;
+        text-decoration: none;
+        margin: 0px;
+        font-size: 1.2em;
+        padding: 25px;
+        transition: all 0.5s;
+    }
+    
+    #navpai>img {
+        left: 20px;
+        top: 10px;
+        position: absolute;
+        height: 50%;
+    }
+    
+    #navfilha>a:hover {
+        background-color: rgba(128, 128, 128, 0.432) ;
+    }
+
+}
+
+
+main {
+    padding-top: 70px;
+}
+
+header {
+    height: 1000px;
+
+    background-image: url(imagens/Night-Space-Cartoon-Rocket-Star-Universe-Moon-3262811.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+
+}
+
+header>h1 {
+    font-size: 6em;
+    padding-top: 50px;
+    margin-top: 0px;
+    margin-right: auto;
+    text-align: center;
+    text-shadow: 4px 4px 3px rgba(255, 255, 255, 0.527);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+
+header > p {
+    color: white;
+    padding: 30px;
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    border-top-style: solid;
+    border-top-width: 5px;
+    border-top-color: white;
+}
+
+header > div {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    height: 30px;
+    width: 90px;
+    margin: auto;
+    text-align: center;
+    padding-top: 3px;
+}
+
+header > div > a {
+    text-decoration: none;
+    font-size: 1.5em;
+    color: white;  
+}
+
+header > div:hover {
+    background-color: black;
+}
+
+#mainsec {
+    background-color:#F0E9E9 ;
+}
+
+@media(max-width: 1200px){
+    #projeto {
+    
+        margin: auto;
+        max-width: 900px;
+    }
+    
+    
+    #projeto > h1 {
+        margin: 0px;
+    }
+    
+    #projeto > h2 { 
+        margin: 0px;
+    }
+    
+    
+    .video {
+        text-align: center;
+        position: relative;
+        overflow-y: hidden;
+        padding-top: 2%;
+        margin: 0px;
+    }
+    
+    .iframe {
+        margin: auto;
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 0;
+    }
+    
+    #txtlado {
+        max-width: 500px;
+        margin: auto;
+        text-align: center;
+        padding: 2%;
+    }
+    
+    #txtlado > h2 {
+        text-align: center;
+    }
+
+}
+@media(min-width: 1200px){
+    #projeto {
+    
+        margin: auto;
+        max-width: 1200px;
+    }
+    
+    
+    #projeto > h1 {
+        margin: 0px;
+    }
+    
+    #projeto > h2 { 
+        margin: 0px;
+    }
+    
+    
+    .video {
+        position: relative;
+        overflow-y: hidden;
+        padding: 0%;
+        margin: 10px;
+        display: inline-block;
+        
+
+    }
+    
+    .iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 0;
+    }
+    
+    #txtlado {
+        width: 400px;
+        margin: 5%;
+        text-align: center;
+        display: inline-block;
+    }
+    
+    #txtlado > h2 {
+        margin: 0px;
+        padding-left: 20%;
+    }
+
+}
+
+#selecao {
+    text-align: center;
+}
+
+.nave {
+    display: inline-block;
+    width: 200px;
+    padding: 5%;
+    text-align: center;
+}
+
+.nave img {
+    width: 40%;
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+
+.nave img:hover {
+    background-color: black;
+}
+
+#ecopontos {
+    text-align: center;
+
+    background-image: url(imagens/space-fundos.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    
+}
+
+#ecopontos img {
+    width: 100%;
+    transition: all 0.5s;
+}
+
+#ecopontos img:hover {
+    transform: scale(105%);
+}
+
+#ecopontos p {
+    font-size: 1.5em;
+}
+
+.ecopontos {
+    max-width: 300px;
+    display: inline-block;
+    padding: 5%;
+
+}
+@media(max-width: 1450px){
+    #sobremim > div{
+        margin: auto;
+        max-width: 500px;
+        text-align: center;
+    }
+
+    #sobremim img{
+        width: 50%;
+        transition: all 0.5s;
+    }
+
+    #sobremim img:hover {
+        transform: scale(105%);
+        
+    }
+
+    #sobremim>figure>p{
+        text-align: center;
+        margin: 20px;
+
+    }
+}
+
+@media(min-width: 1450px){
+    #sobremim > div{
+        margin: 5%;
+        max-width: 500px;
+        text-align: center;
+        float: left;
+    }
+
+    #sobremim img{
+        width: 50%;
+        transition: all 0.5s;
+        
+    }
+
+    #sobremim img:hover {
+        overflow: hidden;
+        transform: scale(105%);
+        
+        
+        
+    }
+
+    #sobremim>figure>p{
+        text-align: center;
+        margin: 20px;
+
+    }
+    
+}
+
+@media(max-width: 1450px){
+    #rodape {
+        max-width: 900px;
+        margin: auto;
+    }
+    
+    footer {
+        background-color: black;
+    }
+    
+    .credito {
+        padding: 0px;
+        color: white;
+        max-width: 500px;
+        text-align: center;
+        margin: auto;
+        display: block;
+    }
+}
+
+@media(min-width: 1450px){
+    #rodape {
+        margin: auto;
+        width: 605px;
+    }
+    
+    footer {
+        background-color: rgb(0, 0, 0);
+    }
+    
+    .credito {
+        color: white;
+        width: 300px;
+        display: inline-block;
+        text-align: center;
+        margin: 0px;
+    }
+}

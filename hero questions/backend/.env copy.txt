@@ -1,0 +1,7 @@
+PORT=2000
+
+//change the follow link for the link in the mongoDB,  put the password and tha DB name in the link
+MONGO_URL=mongodb+srv://anyUser:<password>@teppa-database.m10wqfj.mongodb.net/<DB_Name>?retryWrites=true&w=majority
+
+//change the name's file from ".env copy.txt" to ".env"
+//after the ".net/" put the name of yours DB
