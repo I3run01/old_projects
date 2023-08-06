@@ -1,0 +1,250 @@
+@charset "UTF-08";
+
+
+body {
+    margin: 0;
+}
+
+main {
+    margin: 0;
+}
+
+#sc01 {
+    background-color: rgb(255, 255, 255);
+    min-height: 39.6vh;
+}
+
+#sc01 p {
+    font-size: 1.2em;
+    padding: 2vh;
+
+}
+
+#sc01 article {
+    width: 80vw;
+    margin: 8vh auto auto auto;
+    text-align: center;
+    border: 1px solid black;
+   
+
+}
+
+#sc01 article>h1 {
+    margin: 2vh;
+    border-bottom: 1px solid black;
+}
+
+#sc02M {
+    font-size: 4vh;
+    padding: 2vh;
+    background-color: rgb(243, 243, 189);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+#text02 {
+    text-align: center;
+    padding-top: 2vh;
+    margin: auto;
+    width: 70vw;
+    border: 1px solid black;
+    height: 6vh;
+    background-color: white;
+    overflow-y: scroll;
+    
+    
+}
+
+#sc02 {
+    height: 40vh;
+    background-color: rgb(0, 84, 87);
+    font-size: 2.9vw;
+}
+
+#sc02M > button {
+    min-width: 12vw;
+    height: 6vh;
+    background-color: rgba(127, 255, 212, 0.544);
+    font-size: 4vh;
+}
+
+#container {
+    padding-top: 2vh;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-template-areas: 
+    "Div1-0 Div1-0 Div1-0 Div1-0 Div1-0"
+    "qpDiv qpDiv qpDiv qpDiv qpDiv"
+    "alDiv alDiv alDiv alDiv alDiv"
+    "shiftDiv zmDiv zmDiv zmDiv eraserDiv"
+    "Divint commaDiv spaceDiv dotDiv enterDiv"
+    ;
+
+    width: 90vw;
+    margin: auto;
+    grid-gap: 0;
+}
+
+.valueb {
+    width: 8.8vw;
+    height: 6vh;
+    margin: 0.2vw ;
+}
+
+.special  {
+    width: 13vw;
+    height: 6vh;
+    margin: 0.2vw ;
+}
+
+.space {
+    width: 46.5vw;
+    height: 6vh;
+    margin: 0.2vw ;
+}
+
+
+
+#Div1-0 {
+    grid-area: Div1-0;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+#qpDiv {
+    grid-area: qpDiv;
+    display: flex;
+    justify-content: center;
+}
+
+#eraserDiv {
+    grid-area: eraserDiv;
+    display: flex;
+    justify-content: center;
+}
+
+#fixDiv {
+    grid-area: fixDiv;
+    display: none;
+}
+
+#alDiv {
+    grid-area: alDiv;
+    display: flex;
+    justify-content: center;
+
+   
+}
+
+#zmDiv {
+    grid-area: zmDiv;
+    display: flex;
+    justify-content: center;
+}
+
+#enterDiv {
+    grid-area: enterDiv;
+    display: flex;
+    justify-content: center;
+}
+
+#shiftDiv {
+    grid-area: shiftDiv;
+    display: flex;
+    justify-content: center;
+}
+#commaDiv {
+    grid-area: commaDiv;
+    display: flex;
+    justify-content: center;
+}
+
+#dotDiv {
+    grid-area: dotDiv;
+    display: flex;
+    justify-content: center;
+}
+
+#Divint {
+    grid-area: Divint;
+    display: flex;
+    justify-content: center;
+}
+
+#spaceDiv {
+    grid-area: spaceDiv;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (min-width: 900px) {
+
+    #sc01 {
+        min-height: 450px;
+    }
+
+    #sc02M {
+        height: 100px;
+    }
+
+    #text02 {
+        margin: 2px auto auto auto;
+        height: 80px;
+    }
+
+    
+    #sc02M > button {
+        height: 60px;
+        font-size: 36px;
+    }
+
+    #sc02 {
+        min-height: 360px;
+    }
+
+    #container {
+        max-width: 800px;
+        padding: 20px 5px 5px 5px;
+        grid-gap: 0px;
+
+        grid-template-columns: repeat(5, auto);
+        grid-template-areas: 
+        "Div1-0 Div1-0 Div1-0 Div1-0 eraserDiv"
+        "qpDiv qpDiv qpDiv qpDiv qpDiv"
+        "fixDiv alDiv alDiv alDiv enterDiv"
+        "shiftDiv zmDiv commaDiv  dotDiv Divint"
+        "spaceDiv spaceDiv spaceDiv spaceDiv spaceDiv"
+        ;
+
+    }
+
+    .valueb, .special  {
+        width: 69px;
+        height: 60px;
+        margin: 2px;
+        font-size: 24px;
+
+
+    }
+
+    .space {
+        width: 520px;
+        height: 60px;
+        margin: 2px;
+        font-size: 24px;
+    }
+
+
+    #fixDiv {
+        grid-area: fixDiv;
+        display: flex;
+        justify-content: center;
+    }
+
+    
+}
